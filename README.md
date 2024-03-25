@@ -20,7 +20,7 @@ Whilst there are a couple of pre-existing Tekkit Classic containers, they have l
    
        tekkit-classic:
            container_name: tekkit-classic
-           image: tbc
+           image: jamess60/docker-tekkit-classic:latest
            restart: unless-stopped
            volumes: 
                - /path/to/extracted/tekkit/zip:/tekkit
